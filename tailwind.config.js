@@ -8,7 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {},
       fontSize: {},
-      backgroundImage: {},
+      backgroundImage: {
+        'sofifa-field': "url('/public/assets/img/field.webp')",
+      },
       colors: {
         'sofifa-bg': '#212529',
         'sofifa-nav-bg': '#2e3237',
